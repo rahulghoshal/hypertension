@@ -159,7 +159,7 @@ if st.button('Predict', key='predict_button_main'):
 #     except mysql.connector.Error as err:
 #         print(f"Error: {err}")
 
-    finally:
-        # Close the connection
-        cursor.close()
-        conn.close()
+    # finally:
+    #     # Close the connection
+    #     cursor.close()
+    #     conn.close()
