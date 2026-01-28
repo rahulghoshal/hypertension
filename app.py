@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import mysql.connector
+#import mysql.connector
 
 # Load the trained model and scaler
 model = joblib.load('modelv1.pkl')
